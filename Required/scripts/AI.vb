@@ -30,7 +30,7 @@ Namespace Scripts
 	Public Class TestAI
 	Inherits TBaseAI
 	
-	Public Craeture as CreatureObject
+	Public Creature as CreatureObject
 	Public Sub New(ByRef ParentCreature as CreatureObject)
 		Creature = ParentCreature
 	End Sub
