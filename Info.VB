@@ -1,2 +1,3 @@
-' This is an emulator for 3.0.9 WoW.
-' It does not work yet...
+console.writeline("This is an emulator for 3.0.9 WoW clients.")
+console.writeline("It doesn't work yet..")
+console.readline()
