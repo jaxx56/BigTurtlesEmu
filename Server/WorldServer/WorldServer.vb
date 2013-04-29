@@ -391,6 +391,8 @@ Public Module WS_Main
                                 Console.WriteLine("")
                                 Console.WriteLine("'ban' or 'Ban'- Adds a Ban and IP Ban on an account.")
                                 Console.WriteLine("")
+                                Console.WriteLine("server.info - Displays the server information (Revision and a fancy text allocation.")
+                                Console.WriteLine("")
                                 Console.WriteLine("'unban' or 'Unban'- Removes a Ban and IP Ban on an account.")
                             Case Else
                                 Console.ForegroundColor = System.ConsoleColor.DarkRed
