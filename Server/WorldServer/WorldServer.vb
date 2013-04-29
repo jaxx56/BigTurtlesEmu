@@ -351,18 +351,17 @@ Public Module WS_Main
                             Case "info", "/info"
                                 Log.WriteLine(LogType.INFORMATION, "Used memory: {0}", Format(GC.GetTotalMemory(False), "### ### ##0 bytes"))
                             
-                            Case "server info", "/server info"
-                                Console.writeline("This is an emulator for 3.0.9 WoW clients.")
-                                Console.writeline("It doesn't work yet..")
-                                Console.WriteLine("    ____   _      _______            _    _         ______")                   
-                                Console.WriteLine("   |  _ \ (_)    |__   __|          | |  | |       |  ____|")                  
+                            Case "server.info"
+                                Console.WriteLine("This is an emulator for 3.0.9 WoW clients.")
+                                Console.WriteLine("It doesn't work yet..")
+                                Console.WriteLine("    ____   _      _______            _    _         ______")
+                                Console.WriteLine("   |  _ \ (_)    |__   __|          | |  | |       |  ____|")
                                 Console.WriteLine("   | |_) | _   __ _ | | _   _  _ __ | |_ | |  ___  | |__    _ __ ___   _   _ ")
                                 Console.WriteLine("   |  _ < | | / _` || || | | || '__|| __|| | / _ \ |  __|  | '_ ` _ \ | | | |")
                                 Console.WriteLine("   | |_) || || (_| || || |_| || |   | |_ | ||  __/ | |____ | | | | | || |_| |")
                                 Console.WriteLine("   |____/ |_| \__, ||_| \__,_||_|    \__||_| \___| |______||_| |_| |_| \__,_|")
                                 Console.WriteLine("               __/ |                                                         ")
                                 Console.WriteLine("              |___/                                                          ")
-                                Console.readline
                             Case "db.restart", "/db.restart"
                                 Database.Restart()
                             Case "db.run", "/db.run"
