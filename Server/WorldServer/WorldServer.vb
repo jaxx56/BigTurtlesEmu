@@ -200,7 +200,7 @@ Public Module WS_Main
         Console.WriteLine()
 
         Console.ForegroundColor = System.ConsoleColor.Magenta
-        Console.WriteLine("http://www.SpuriousEmu.com")
+        Console.WriteLine("http://bigturtlesemu.weebly.com")
         Console.WriteLine()
 
         Console.ForegroundColor = System.ConsoleColor.White
@@ -287,6 +287,18 @@ Public Module WS_Main
                                 tmpScript.Dispose()
                             Case "gccollect"
                                 GC.Collect()
+
+                                '    Case "Ban.IP", "IP.Ban", "ip.ban", "ban.ip"
+                                '       Console.ForeGroundColor = System.ConsoleColor.DarkBlue
+                                '      Console.WriteLine("[{0}] Type the IP you wish to ban :", Format(TimeOfDay, "hh:mm:ss"))
+                                '     Dim ip As String
+                                '    ip = Console > ReadLine()
+                                '   Dim ResultIP1 As New DataTable
+                                '  Dim ResultIP2 As New DataTable
+                                ' Database.Query("SELECT ip FROM bans WHERE ip = """ & ip & """;", ResultIP1)
+                                'Dim IP2 As String
+                                'IP = ResultIP1.Rows(0).item("ip"))
+                                'if ResultIP1.Rows(0).item("banned"
                             Case "ban", "Ban", "Ban Account", "acct ban"
                                 Console.ForegroundColor = System.ConsoleColor.DarkYellow
                                 Console.WriteLine("[{0}] Specify the Account Name :", Format(TimeOfDay, "hh:mm:ss"))
@@ -350,7 +362,7 @@ Public Module WS_Main
                                 End If
                             Case "info", "/info"
                                 Log.WriteLine(LogType.INFORMATION, "Used memory: {0}", Format(GC.GetTotalMemory(False), "### ### ##0 bytes"))
-                            
+
                             Case "server.info"
                                 Console.WriteLine("This is an emulator for 3.0.9 WoW clients.")
                                 Console.WriteLine("It doesn't work yet..")
@@ -362,6 +374,9 @@ Public Module WS_Main
                                 Console.WriteLine("   |____/ |_| \__, ||_| \__,_||_|    \__||_| \___| |______||_| |_| |_| \__,_|")
                                 Console.WriteLine("               __/ |                                                         ")
                                 Console.WriteLine("              |___/                                                          ")
+                                Dim Revision As String = "Using revision 14 of"
+                                Dim Core As String = "BigTurtle Emu"
+                                Console.WriteLine(Revision + Core)
                             Case "db.restart", "/db.restart"
                                 Database.Restart()
                             Case "db.run", "/db.run"
