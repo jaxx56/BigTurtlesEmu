@@ -777,6 +777,7 @@ Public Module WS_CharManagment
                     Case Else
                         'CLASS_ROGUE
                         'CLASS_WARRIOR
+                        'CLASS_DK
                         Return 0
                 End Select
 
@@ -821,6 +822,8 @@ Public Module WS_CharManagment
                     Case Classes.CLASS_MAGE, Classes.CLASS_PRIEST, Classes.CLASS_WARLOCK
                         Return (Strength.Base - 10)
                     Case Classes.CLASS_ROGUE, Classes.CLASS_HUNTER
+                    Case Classes.CLASS_DEATH_KNIGHT
+                        Return (Level * 3 + Strength.Base * 3 - 20)
                         Return (Level * 2 + Strength.Base + Agility.Base - 20)
                     Case Classes.CLASS_DRUID
                         If Me.ShapeshiftForm = WS_Spells.ShapeshiftForm.FORM_CAT Then
