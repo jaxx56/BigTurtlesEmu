@@ -133,7 +133,7 @@ Public Module WS_Main
             If System.IO.File.Exists(FileName) = False Then
                 Console.ForegroundColor = ConsoleColor.Red
                 Console.WriteLine("[{0}] Cannot Continue. {1} does not exist.", Format(TimeOfDay, "hh:mm:ss"), FileName)
-                Console.WriteLine("Please copy the ini files into the same directory as the Spurious exe files.")
+                Console.WriteLine("Please copy the ini files into the same directory as the BigTurtles exe files.")
                 Console.WriteLine("Press any key to exit server: ")
                 Console.ReadKey()
                 End
@@ -206,7 +206,7 @@ Public Module WS_Main
         Console.ForegroundColor = System.ConsoleColor.White
         Console.WriteLine(CType([Assembly].GetExecutingAssembly().GetCustomAttributes(GetType(System.Reflection.AssemblyTitleAttribute), False)(0), AssemblyTitleAttribute).Title)
         Console.WriteLine("version {0}", [Assembly].GetExecutingAssembly().GetName().Version)
-        Console.WriteLine("revision {0}", GetBuildRevision())
+        Console.WriteLine("revision 17")
         Console.ForegroundColor = System.ConsoleColor.White
 
         Console.WriteLine("")
@@ -383,7 +383,7 @@ Public Module WS_Main
                                 Database.Update(cmds(1))
                             Case "help", "/help"
                                 Console.ForegroundColor = System.ConsoleColor.Blue
-                                Console.WriteLine("'Spurious.WorldServer' Command list:")
+                                Console.WriteLine("'BigTurtles.WorldServer' Command list:")
                                 Console.ForegroundColor = System.ConsoleColor.White
                                 Console.WriteLine("---------------------------------")
                                 Console.WriteLine("")
