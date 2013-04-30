@@ -26,11 +26,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Spurious.WorldServer")> 
-<Assembly: AssemblyDescription("World Server part of Spurious Server Emulator.")> 
-<Assembly: AssemblyCompany("The Spurious Team")> 
-<Assembly: AssemblyProduct("Spurious Server Pack")> 
-<Assembly: AssemblyCopyright("Copyright (C) 2008-2009, The Spurious Team")> 
+<Assembly: AssemblyTitle("BigTurtles.WorldServer")> 
+<Assembly: AssemblyDescription("Big Turtles Worldserver system.")> 
+<Assembly: AssemblyCompany("BigTurtles developers")> 
+<Assembly: AssemblyProduct("Big Turtles WoW Cores")> 
+<Assembly: AssemblyCopyright("Copyright (C) 2012-2013 BigTurtles")> 
 <Assembly: AssemblyTrademark("")> 
 <Assembly: CLSCompliant(False)> 
 
@@ -47,6 +47,6 @@ Imports System.Runtime.InteropServices
 ' You can specify all the values or you can default the Build and Revision Numbers 
 ' by using the '*' as shown below:
 
-<Assembly: AssemblyVersion("0.3.*")> 
+<Assembly: AssemblyVersion("0.0.*")> 
 
 <Assembly: ComVisibleAttribute(False)> 
