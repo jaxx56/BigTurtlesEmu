@@ -206,7 +206,7 @@ Public Module WS_Main
         Console.ForegroundColor = System.ConsoleColor.White
         Console.WriteLine(CType([Assembly].GetExecutingAssembly().GetCustomAttributes(GetType(System.Reflection.AssemblyTitleAttribute), False)(0), AssemblyTitleAttribute).Title)
         Console.WriteLine("version {0}", [Assembly].GetExecutingAssembly().GetName().Version)
-        Console.WriteLine("revision 16")
+        Console.WriteLine("cf36062c1f366a66c4fb25ff0ccf410404161100")
         Console.ForegroundColor = System.ConsoleColor.White
 
         Console.WriteLine("")
