@@ -1,5 +1,5 @@
 ' 
-' Copyright (C) 2008 Spurious <http://SpuriousEmu.com>
+' Copyright (C) 2008 BigTurtlesEmu <https://bigturtlesemu.weebly.com>
 '
 ' This program is free software; you can redistribute it and/or modify
 ' it under the terms of the GNU General Public License as published by
@@ -79,7 +79,7 @@ Public Module WorldCluster
             If System.IO.File.Exists("WorldCluster.ini") = False Then
                 Console.ForegroundColor = ConsoleColor.Red
                 Console.WriteLine("[{0}] Cannot Continue. {1} does not exist.", Format(TimeOfDay, "hh:mm:ss"), "WorldCluster.ini")
-                Console.WriteLine("Please copy the ini files into the same directory as the Spurious exe files.")
+                Console.WriteLine("Please copy the ini files into the same directory as the BigTurtles exe files.")
                 Console.WriteLine("Press any key to exit server: ")
                 Console.ReadKey()
                 End
