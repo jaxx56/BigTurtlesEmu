@@ -189,6 +189,41 @@ Public Module WS_Main
 
     <System.MTAThreadAttribute()> _
     Sub Main()
+        '  Dim Register As String = Nothing
+        'Dim Login As String = Nothing
+        '  Dim Pass As String = Nothing
+        ' If My.Settings.Username = Nothing Then
+        'If My.Settings.Password = Nothing Then
+        'Console.WriteLine("Please register for security reasons!")
+        'R() egister = Console.ReadLine()
+        'If My.Settings.Username = Nothing Then
+        ' Console.WriteLine("Please enter a username to register with.")
+        'Login = Console.ReadLine()
+        ' Login = My.Settings.Username
+        '   If My.Settings.Password = Nothing Then
+        ' Console.WriteLine("Please enter a password to register with.")
+        'Pass = Console.ReadLine()
+        'Pass = My.Settings.Password
+        'My.Settings.Save()
+        '   End If
+        '     End If
+
+
+
+        'End If
+        'End If
+        '       If My.Settings.Username = My.Settings.Username Then
+        'If My.Settings.Password = My.Settings.Password Then
+        '    Console.WriteLine("Please enter your username.")
+        '     Login = Console.ReadLine()
+        '    Login = My.Settings.Username
+        '    Console.WriteLine("Please enter your password.")
+        'Pass = Console.ReadLine()
+        '    Pass = My.Settings.Username
+        ' End If
+
+        'End If
+
         timeBeginPeriod(1)  'Set timeGetTime to a accuracy of 1ms
 
         Console.BackgroundColor = System.ConsoleColor.Black
@@ -206,7 +241,7 @@ Public Module WS_Main
         Console.ForegroundColor = System.ConsoleColor.White
         Console.WriteLine(CType([Assembly].GetExecutingAssembly().GetCustomAttributes(GetType(System.Reflection.AssemblyTitleAttribute), False)(0), AssemblyTitleAttribute).Title)
         Console.WriteLine("version {0}", [Assembly].GetExecutingAssembly().GetName().Version)
-        Console.WriteLine("cf36062c1f366a66c4fb25ff0ccf410404161100")
+        Console.WriteLine("revision 16")
         Console.ForegroundColor = System.ConsoleColor.White
 
         Console.WriteLine("")
