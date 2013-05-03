@@ -26,3 +26,6 @@ Implement a proper creature scripting system.
 Implement a proper AI system. 
 Implement a possible questing SQL system, so you don't have a 500000GB server just with quests and AI's.
 Implement a base DK system. This includes talents & such.
+
+
+This project will be held off for a bit. The developer needs to get a new computer.
