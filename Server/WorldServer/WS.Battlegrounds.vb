@@ -16,7 +16,10 @@
 ' Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 Imports Spurious.Common.BaseWriter
-
+'Public Enumerations
+ '   BG_WSG  =   1
+  '  BG_AB   =   2
+'End Enumerations
 Public Module WS_Battlegrounds
 
     Public BATTLEFIELDs As New Dictionary(Of Integer, Battlefield)
