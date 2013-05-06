@@ -28,6 +28,7 @@ Public Enum OPCODES
     SMSG_QUERY_OBJECT_ROTATION = &H7
     CMSG_WORLD_TELEPORT = &H8
     CMSG_TELEPORT_TO_UNIT = &H9
+    ' Need more sniffs around here
     CMSG_ZONE_MAP = &HA
     SMSG_ZONE_MAP = &HB
     CMSG_DEBUG_CHANGECELLZONE = &HC
