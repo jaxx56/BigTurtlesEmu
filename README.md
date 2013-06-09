@@ -28,4 +28,4 @@ Implement a possible questing SQL system, so you don't have a 500000GB server ju
 Implement a base DK system. This includes talents & such.
 
 
-This project will be held off for a bit. The developer needs to get a new computer.
+Project continued!
